@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 60%; */
+}
+
+.navbar {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 1.4rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 12%);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 280px;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+}
